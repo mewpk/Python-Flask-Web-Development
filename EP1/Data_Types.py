@@ -38,3 +38,8 @@ print(y)
 
 x= "i love python"
 print(x.capitalize()) #uppercase only first character
+
+animals = ["Cat","Dog", "Pig"] #append() add to list ,insert( {index}, "")
+animals.append("Cow")
+animals.insert(0 , "Rat")
+print(animals)
