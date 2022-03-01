@@ -1,4 +1,4 @@
-from unittest import result
+from unittest import result, skip
 
 
 a = 20
@@ -16,6 +16,15 @@ a= "a" #single Line String
 print(a)
 
 a=""" good morning
-dsadsadsadsa dsa  """ #multiline Strings
-
+Teacher and every body  """ #multiline Strings
 print(a)
+print(len(a)) # Chack Long String
+
+times = 3
+hi = "Hello"
+
+result = hi * times
+print(result) # 
+
+msg =  "MR. Patsakorn"
+print(msg[0]) # [] Square Brackets
