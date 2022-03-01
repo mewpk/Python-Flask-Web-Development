@@ -28,5 +28,5 @@ pt_dict = {
     "partners" : None
 }
 #open("name files","w ?? write "r" ?? read")
-with open("pages_info.json","w") as json_flie:
-    data = json.dump(pt_dict,json_flie,indent=4)
+with open("pages_info.json","w") as json_file:
+    data = json.dump(pt_dict,json_file,indent=4)
