@@ -28,3 +28,13 @@ print(result) #
 
 msg =  "MR. Patsakorn"
 print(msg[0]) # [] Square Brackets
+
+x= "HELLO WORLD"
+print(x.lower()) #.lower(),.upper()
+
+x= "I wanna learn python , I really like it"
+y = x.split(",") # split() befult methods is (" ") you can change split methods in () example : split(",") 
+print(y)
+
+x= "i love python"
+print(x.capitalize()) #uppercase only first character
