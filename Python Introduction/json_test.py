@@ -28,5 +28,13 @@ pt_dict = {
     "partners" : None
 }
 #open("name files","w ?? write "r" ?? read")
-with open("pages_info.json","w") as json_file:
-    data = json.dump(pt_dict,json_file,indent=4)
+
+#Create
+# with open("pages_info.json","w") as json_file:
+#     data = json.dump(pt_dict,json_file,indent=4)
+
+#Read
+with open("pages_info.json","r") as json_file:
+    data = json.load(json_file)
+    print(data)
+    print(type(data))
