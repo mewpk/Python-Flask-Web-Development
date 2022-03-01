@@ -1,3 +1,5 @@
+from tkinter import Variable
+from turtle import right
 from unittest import result, skip
 
 
@@ -43,3 +45,25 @@ animals = ["Cat","Dog", "Pig"] #append() add to list ,insert( {index}, "")
 animals.append("Cow")
 animals.insert(0 , "Rat")
 print(animals)
+
+colors = ("Red","Green","Blue") #tuple can not change data ?? = () 
+
+print(colors)
+
+
+# Dictionary Dict => Key&value
+
+variable = {
+    "key": "value",
+    }
+
+inp_name = input("Type your name here :") #input defult: string
+inp_age = input("Type your age here :")
+
+student = {
+    "name" : inp_name,
+    "age" : int(inp_age)
+}
+
+print(student["name"]) # ["key"]
+print(student["age"]) # ["key"]
