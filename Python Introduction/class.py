@@ -14,3 +14,14 @@ class Student:
 
 s1 = Student()
 s1.show()
+
+
+#Attributs
+class Person:
+    class_attr = 20
+
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+p1 = Person("Patsa",18)
+print(p1.name)
