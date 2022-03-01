@@ -1,6 +1,3 @@
-from tkinter import Variable
-from turtle import right
-from unittest import result, skip
 
 
 a = 20
