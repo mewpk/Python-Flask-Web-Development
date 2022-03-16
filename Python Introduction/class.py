@@ -26,5 +26,6 @@ class Person:
         self.age = age
     def details(self):
          print(f"My name is {self.name} I'm {self.age} years old")
+         
 p1 = Person("Patsa",18)
 p1.details()

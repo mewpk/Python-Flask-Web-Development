@@ -41,6 +41,7 @@ print(x.capitalize()) #uppercase only first character
 animals = ["Cat","Dog", "Pig"] #append() add to list ,insert( {index}, "")
 animals.append("Cow")
 animals.insert(0 , "Rat")
+
 print(animals)
 
 colors = ("Red","Green","Blue") #tuple can not change data ?? = () 
@@ -57,10 +58,10 @@ variable = {
 inp_name = input("Type your name here :") #input defult: string
 inp_age = input("Type your age here :")
 
-student = {
+Player = {
     "name" : inp_name,
     "age" : int(inp_age)
 }
 
-print(student["name"]) # ["key"]
-print(student["age"]) # ["key"]
+print(Player["name"]) # ["key"]
+print(Player["age"]) # ["key"]
